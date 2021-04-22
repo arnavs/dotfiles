@@ -1,0 +1,75 @@
+{
+    "editor.suggest.maxVisibleSuggestions": 5,
+    "editor.formatOnSave": true,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.message.error.show": false,
+    "python.condaPath": "/usr/local/anaconda3/bin/conda",
+    "python.defaultInterpreterPath": "/usr/local/anaconda3/bin/python",
+    "python.pythonPath": "/usr/local/anaconda3/bin/python",
+    "terminal.integrated.inheritEnv": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "jupyter.alwaysTrustNotebooks": true,
+    "editor.fontFamily": "'SF Mono', 'Fira Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.editor.enablePreview": false,
+    "gitlens.menus": false,
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "--shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "remote.SSH.connectTimeout": 60,
+    "jupyter.debugJustMyCode": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "julia.enableTelemetry": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Atom One Dark",
+    "files.associations": {
+        ".aliases": "shellscript"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+}

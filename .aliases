@@ -1,0 +1,41 @@
+alias shred="cd ~/Shreddit && shreddit"
+
+alias gbr="git branch | grep -v "main" | xargs git branch -D"
+alias days='julia ~/scripts/days.jl'
+alias pw='python ~/scripts/pass.py'
+alias umbrella='~/scripts/umbrella_breaker.sh'
+
+# https://github.com/mathiasbynens/dotfiles/blob/main/.aliases
+alias ..="cd .."
+alias ...="cd ../.."
+# alias ....="cd ../../.."
+# alias .....="cd ../../../.."
+
+
+alias c="code"
+alias d="cd ~/dotfiles"
+alias dl="cd ~/Downloads"
+alias dsk="cd ~/Desktop"
+alias r="cd ~/research"
+alias g="git"
+alias st="git st"
+alias cm="git cm"
+alias ad="git ad"
+alias pl="git pl"
+alias br="git br"
+alias co="git co" # tab complete doesn't work without "git", need to fix
+
+alias la="ls -la --no-permissions --no-user --no-time"
+alias T="tree"
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias lip="ipconfig getifaddr en0"
+# alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+alias path='echo -e ${PATH//:/\\n}'
+command -v sha1sum > /dev/null || alias sha1sum="shasum"
+alias afk="osascript -e 'tell app \"System Events\" to key code 12 using {control down, command down}'"

@@ -1,0 +1,35 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Arnav Sood
+	email = 5009477+arnavs@users.noreply.github.com
+	signingkey = 3E7CD4F5
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.gitignore
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
+[alias]
+	co = checkout
+	st = status
+	ct = commit
+	ad = add
+	cm = commit
+	br = branch
+	l = log
+	ps = push
+	pl = pull
+	cl = clone
+	first = rev-list --max-parents=0 HEAD
+[include]
+    path = ~/.gitconfig-local
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
