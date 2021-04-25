@@ -25,7 +25,7 @@ if not_installed brew; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew bundle --file=$1/Brewfile
+brew bundle --file=$1/Brewfile -vd
 
 try_addpath "/Library/TeX/texbin" 0
 try_addpath "/usr/local/anaconda3/bin" 1
