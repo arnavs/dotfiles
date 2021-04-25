@@ -1,5 +1,4 @@
 {
-    "editor.suggest.maxVisibleSuggestions": 5,
     "editor.formatOnSave": true,
     "latex-workshop.message.warning.show": false,
     "latex-workshop.message.error.show": false,
