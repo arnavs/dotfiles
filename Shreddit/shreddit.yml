@@ -57,8 +57,8 @@ whitelist_gilded: True
 nuke_hours: 720
 
 # Save a copy to disk of comments and posts before deleting them.
-keep_a_copy: False
-save_directory: /tmp
+keep_a_copy: True
+save_directory: ~/.reddit
 
 # Replacement text format
 # Defines what you want to edit deleted content with pre-deletion (to ensure
