@@ -5,7 +5,7 @@
 # 672 hours in two fortnights,
 # 720 hours in a month (30 days),
 # 8766 hours in a year (365.25 days)
-hours: 24
+hours: 168
 
 # Max score, higher than this and it'll be kept.
 max_score: 100
