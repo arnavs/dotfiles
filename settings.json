@@ -7,14 +7,10 @@
     "python.pythonPath": "/usr/local/anaconda3/bin/python",
     "terminal.integrated.inheritEnv": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
     "jupyter.sendSelectionToInteractiveWindow": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "jupyter.alwaysTrustNotebooks": true,
     "editor.fontFamily": "'SF Mono', 'Fira Mono', Menlo, Monaco, 'Courier New', monospace",
     "workbench.editor.enablePreview": false,
@@ -71,4 +67,10 @@
     },
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
+    "window.zoomLevel": 1,
+    "julia.symbolCacheDownload": true,
+    "julia.executablePath": "/usr/local/bin/julia",
+    // "workbench.colorCustomizations": {
+    //     "editor.background": "#17314b",
+    // },
 }

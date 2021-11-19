@@ -9,7 +9,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-[credential]
+[credential] 
 	helper = osxkeychain
 [core]
 	excludesfile = ~/.gitignore
@@ -33,3 +33,5 @@
 	gpgsign = true
 [gpg]
 	program = gpg
+[pull]
+	rebase = false

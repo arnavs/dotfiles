@@ -15,3 +15,4 @@ eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
 
 source ~/.bashrc-local
+export FRED_API_KEY=c57b62fef90cf7f83f34233ba9152929
