@@ -1,3 +1,5 @@
+alias up="./update.sh"
+alias tep="cd ~/tepper"
 alias shred="cd ~/Shreddit && shreddit"
 
 alias gbr="git branch | grep -v "main" | xargs git branch -D"
