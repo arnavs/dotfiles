@@ -4,7 +4,7 @@ fi
 set +H
 
 source ~/.aliases
-
+export PATH=/opt/homebrew/bin:/opt/homebrew/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export JULIA_CUDA_SILENT=true
 export LC_CTYPE=C 

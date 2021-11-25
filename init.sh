@@ -20,27 +20,30 @@ for file in ".bashrc-local" ".gitconfig-local"; do
     fi
 done
 
+# symlink dotfiles
+for file in ".aliases" ".bashrc" ".gitconfig" ".bash_profile"; do
+    try_symlink $file
+done
+
 # install homebrew, bundle, run Brewfile, symlink
 if not_installed brew; then
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
+
+source ~/.bashrc
 
 brew bundle --file=$1/Brewfile -vd
 
 try_addpath "/Library/TeX/texbin" 0
-try_addpath "/usr/local/anaconda3/bin" 1
+try_addpath "/opt/homebrew/anaconda3/bin" 1
 # try_addpath "$(brew --prefix)/opt/coreutils/libexec/gnubin" 1
 
-ln -fs /usr/local/bin/exa /usr/local/bin/ls
+# ln -fs /usr/local/bin/exa /usr/local/bin/ls
 
 # symlink folders
 ln -s $dotfile_dir/scripts ~/scripts
 ln -s $dotfile_dir/Shreddit ~/Shreddit
 
-# symlink dotfiles
-for file in ".aliases" ".bashrc" ".gitconfig" ".bash_profile"; do
-    try_symlink $file
-done
 
 # fonts
 # Fira Mono is a good alternative (and Fire Code has nice ligatures), but I like SF Mono best
