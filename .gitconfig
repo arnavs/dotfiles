@@ -3,7 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Arnav Sood
 	email = 5009477+arnavs@users.noreply.github.com
-	signingkey = 3E7CD4F5
+	signingkey = E74E343584A8BD85
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f

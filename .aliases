@@ -26,6 +26,8 @@ alias ad="git ad"
 alias pl="git pl"
 alias br="git br"
 alias co="git co" # tab complete doesn't work without "git", need to fix
+alias cla="cd ~/tepper/classes"
+alias str="cd ~/tepper/classes/metrics-ii/structural-econometrics"
 
 alias la="ls -la --no-permissions --no-user --no-time"
 alias T="tree"
