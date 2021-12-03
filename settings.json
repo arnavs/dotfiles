@@ -70,6 +70,7 @@
     "window.zoomLevel": 1,
     "julia.symbolCacheDownload": true,
     "julia.executablePath": "/opt/homebrew/bin/julia",
+    "python.formatting.provider": "black",
     // "workbench.colorCustomizations": {
     //     "editor.background": "#17314b",
     // },

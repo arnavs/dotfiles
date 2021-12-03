@@ -1,4 +1,4 @@
-alias up="./update.sh"
+alias up="source /Users/arnavsood/tepper/classes/metrics-ii/structural-econometrics/update.sh"
 alias tep="cd ~/tepper"
 alias shred="cd ~/Shreddit && shreddit"
 
