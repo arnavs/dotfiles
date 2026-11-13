@@ -11,5 +11,6 @@ Then run the init script
 > chmod +x init.sh; ./init.sh
 
 Also: 
+
     - Copy the `sudo` contents to `/etc/pam.d/sudo`
     - Copy the `vscode-settings.json` to the VSCode Settings JSON 
