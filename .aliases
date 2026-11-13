@@ -3,7 +3,7 @@ alias up="source /Users/arnavsood/scripts/update.sh"
 alias tep="cd ~/tepper"
 alias shred="cd ~/Shreddit && shreddit"
 
-alias gbr="git branch | grep -Ev "main|master|\*" | xargs git branch -D"
+alias gbr='git branch | grep -Ev "main|master|\*" | xargs git branch -d'
 
 # https://github.com/mathiasbynens/dotfiles/blob/main/.aliases
 alias ..="cd .."
