@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "terminal.integrated.inheritEnv": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "editor.wordWrap": "on",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.associations": {
+        ".aliases": "shellscript"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#382949",
+    },
+    "security.workspace.trust.untrustedFiles": "open"
+}
