@@ -3,7 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Arnav Sood
 	email = 5009477+arnavs@users.noreply.github.com
-	# signingkey = something
+	signingkey = ~/.ssh/id_ed25519.pub
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -13,6 +13,7 @@
 	helper = osxkeychain
 [core]
 	excludesfile = ~/.gitignore
+	editor = code --wait
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
 [alias]
@@ -32,6 +33,7 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = /opt/homebrew/bin/gpg
+	# program = /opt/homebrew/bin/gpg
+	format = ssh
 [pull]
 	rebase = false
