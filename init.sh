@@ -1,5 +1,5 @@
 # create git key 
-ssh-keygen -t ed25519 -C "5009477+arnavs@users.noreply.github.com"
+[-f ~/.ssh/id_ed25519] || ssh-keygen -t ed25519 -C "5009477+arnavs@users.noreply.github.com"
 mkdir -p ~/.ssh
 touch ~/.ssh/config
 grep -q '^Host github.com' ~/.ssh/config || cat >> ~/.ssh/config <<'EOF'
@@ -13,6 +13,7 @@ brew bundle
 cp -f .zshrc ~/.zshrc
 cp -f .aliases ~/.aliases
 cp -f .gitconfig ~/.gitconfig 
+cp -f .gitignore ~/.gitignore
 # install tex packages
 xargs sudo tlmgr install < tex.txt
 # scripts
