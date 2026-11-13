@@ -1,3 +1,11 @@
+# create git key 
+ssh-keygen -t ed25519 -C "5009477+arnavs@users.noreply.github.com"
+touch ~/.ssh/config
+cat >> ~/.ssh/config <<'EOF'
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+EOF
 # install brew apps 
 brew bundle 
 # install dotfiles
