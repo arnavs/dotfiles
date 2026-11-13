@@ -13,4 +13,3 @@ Then run the init script
 Also: 
     * Copy the `sudo` contents to `/etc/pam.d/sudo`
     * Copy the `vscode-settings.json` to the VSCode Settings JSON 
-    * 
