@@ -3,7 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Arnav Sood
 	email = 5009477+arnavs@users.noreply.github.com
-	signingkey = E74E343584A8BD85
+	# signingkey = something
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
@@ -32,6 +32,6 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = /opt/homebrew/bin/gpg
 [pull]
 	rebase = false

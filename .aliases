@@ -1,4 +1,5 @@
-alias up="source /Users/arnavsood/tepper/classes/metrics-ii/structural-econometrics/update.sh"
+alias ls='gls --color=auto'
+alias up="source /Users/arnavsood/scripts/update.sh"
 alias tep="cd ~/tepper"
 alias shred="cd ~/Shreddit && shreddit"
 
