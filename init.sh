@@ -1,5 +1,5 @@
 # create git key 
-[-f ~/.ssh/id_ed25519] || ssh-keygen -t ed25519 -C "5009477+arnavs@users.noreply.github.com"
+[ -f ~/.ssh/id_ed25519 ] || ssh-keygen -t ed25519 -C "5009477+arnavs@users.noreply.github.com"
 mkdir -p ~/.ssh
 touch ~/.ssh/config
 grep -q '^Host github.com' ~/.ssh/config || cat >> ~/.ssh/config <<'EOF'

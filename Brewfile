@@ -6,8 +6,6 @@ brew "coreutils"
 brew "docker"
 # Git extension for versioning large files
 brew "git-lfs"
-# GNU Privacy Guard (OpenPGP)
-brew "gnupg"
 # Command-line tool to export and inspect local iMessage database
 brew "imessage-exporter"
 # Add indentation to LaTeX files
